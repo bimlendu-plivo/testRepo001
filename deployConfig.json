@@ -1,6 +1,6 @@
 {
-	"parent": "testProject",
+	"parent": "test-project",
 	"dockerOnly": true,
 	"language": "python",
-	"serviceName": "testService"
+	"serviceName": "test-service"
 }
