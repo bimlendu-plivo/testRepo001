@@ -1,3 +1,3 @@
 [submodule "repo002"]
 	path = repo002
-	url = git@github.com:bimlendu-plivo/testRepo002.git
+	url = https://github.com:bimlendu-plivo/testRepo002.git
