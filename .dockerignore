@@ -1,0 +1,4 @@
+.git*
+deplogConfig.json
+Jenkinsfile
+*.md
