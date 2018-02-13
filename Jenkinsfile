@@ -37,6 +37,10 @@ pipeline {
 						file: 'deployConfig.json'
 					])
 					buildContext << projectDeployConfig
+
+					String version = new java.text.SimpleDateFormat("yy.MM.dd.${currentBuild.id}").format(new Date())
+					buildContext['version'] = version
+					
 					sh 'printenv'
 				}
 			}
