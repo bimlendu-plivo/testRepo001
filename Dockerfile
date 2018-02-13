@@ -1,3 +1,3 @@
 FROM alpine:3.7
 
-COPY repo2 /opt/repo2
+COPY repo002 /opt/repo002
